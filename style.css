@@ -1,10 +1,62 @@
-*{
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
 }
-.sidebar{
-    background-color: red;
+.sidebar {
+  background-color: rgb(168, 165, 165);
+  width: 20vw;
+  font-family: "Lato", sans-serif;
+  height: 100vh;
 }
-.main{
-    background-color: yellow;
+.sidebar nav {
+  padding: 20px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 30px 0;
+}
+.main {
+  background-color: yellow;
+  width: 80vw;
+}
+
+.container {
+  display: flex;
+}
+.infoContainer {
+  height:50vh;
+  background-color: green;
+  width: 70vw;
+  margin: 112px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+
+.hello {
+  font-size: 30px;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+.about {
+  font-size: 15px;
+}
+.buttons button {
+  height: 30px;
+}
+.devPic img {
+  width: 200px;
+  height: 50vh;
 }
